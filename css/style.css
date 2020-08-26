@@ -1,0 +1,184 @@
+                .sectiona {
+                    background-color: whitesmoke;
+                }
+                
+                .small-page {
+                    height: 70vh;
+                    display: flex;
+                }
+                
+                #blogs {
+                    color: black;
+                }
+                
+                #blogs h1 {
+                    font-size: 5rem;
+                    font-family: cursive;
+                    text-align: center;
+                }
+                
+                .container1 {
+                    display: block;
+                }
+                
+                .small-page h2 {
+                    font-family: italic;
+                    color: rosybrown;
+                }
+                
+                .small-page p {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                
+                .col-md-3 img {
+                    height: 30vh;
+                    border-radius: 40px 40px 40px 40px;
+                }
+                
+                .small-page img:hover {
+                    opacity: 1;
+                    position: absolute;
+                    text-decoration: none;
+                    border-radius: 25px 25px 25px 25px;
+                    transition: 0.5s;
+                    opacity: 0.5;
+                    overflow: hidden;
+                }
+                
+                #posts {
+                    height: 120vh;
+                }
+                
+                .small {
+                    background-color: teal;
+                    height: 50vh;
+                    font-size: 8rem;
+                }
+                
+                .small h1 {
+                    font-size: 5rem;
+                    font-family: cursive;
+                    text-align: center;
+                }
+                
+                .small p {
+                    font-size: 3rem;
+                    text-align: center;
+                }
+                
+                .Largepage {
+                    height: 143h;
+                    background-image: url(../images/img3.PNG);
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+                
+                .Largepage h1,
+                h2 {
+                    color: white;
+                    font-size: 5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                }
+                
+                .dividerPage img {
+                    height: 20vh;
+                }
+                
+                .dividerPage {
+                    color: white;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    display: block;
+                }
+                
+                footer {
+                    font-size: small;
+                    background-color: teal;
+                }
+                
+                .pagination {
+                    float: left;
+                }
+                
+                .content {
+                    display: flex;
+                }
+                
+                .col-md-6 {
+                    display: flex;
+                }
+                
+                .sec {
+                    display: flex;
+                }
+                
+                .banner {
+                    text-align: center;
+                    width: 70%;
+                }
+                
+                h1 {
+                    color: green;
+                }
+                /* styling sidebar */
+                
+                .sidehoverbar a {
+                    background-color: grey;
+                    position: absolute;
+                    font-size: 22px;
+                    text-decoration: none;
+                    color: black;
+                    padding: 10px;
+                    left: -250px;
+                    border-radius: 25px 25px 25px 25px;
+                    transition: 0.5s;
+                    opacity: 0.5;
+                }
+                
+                .sidehoverbar a:hover {
+                    right: 0px;
+                    opacity: 1;
+                    background-color: teal;
+                }
+                
+                .sidehoverbar i {
+                    float: left;
+                }
+                
+                .article {
+                    top: 70px;
+                }
+                
+                .Interview {
+                    top: 140px;
+                }
+                
+                .Scripter {
+                    top: 210px;
+                }
+                
+                .Suggested {
+                    top: 280px
+                }
+                
+                .admin-content .page-title {
+                    text-align: center;
+                    margin-bottom: 1.5rem;
+                }
+                
+                .container {
+                    background-color: wheat;
+                }
+                
+                @media (max-width: 650px) {
+                    .small-page {
+                        display: block;
+                        height: auto;
+                    }
+                }
+                
+                @media (max-width: 800px) {
+                    .sidehoverbar {
+                        display: none;
+                    }
+                }
